@@ -1,5 +1,20 @@
 /* General styles for the body */
 
+
+.fondo {
+    background-image: url('camara.jpg'); /* Cambia la ruta a tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 100; /* Altura del contenedor, en este caso, ocupa toda la ventana */
+    color: white; /* Cambia el color del texto para que sea legible sobre la imagen */
+    display: flex; /* Usa Flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto */
+}
+
+
+
 img {
     display: block;
     margin-left: auto;
