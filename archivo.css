@@ -1,26 +1,15 @@
 /* General styles for the body */
 
 
-.fondo {
-    background-image: url('camara.jpg'); /* Cambia la ruta a tu imagen */
-    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    height: 100; /* Altura del contenedor, en este caso, ocupa toda la ventana */
-    color: white; /* Cambia el color del texto para que sea legible sobre la imagen */
-    display: flex; /* Usa Flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    text-align: center; /* Centra el texto */
-}
-
-
-
 img {
+    margin-top:5% ;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 40%;
 }
+
+
 
 .link-button {
     background: none;
@@ -61,6 +50,8 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: auto; /* Centra la tarjeta horizontalmente */
     margin-top: 2%;
+    margin-bottom: 5%;
+
 }
 
 /* Image styles */
